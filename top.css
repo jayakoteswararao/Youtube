@@ -1,0 +1,188 @@
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.header{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-color: gray;
+    border-bottom-style: solid;
+    z-index: 1;
+}
+.left-section{
+width: 250px;
+margin-left: 20px;
+display: flex;
+align-items: center;
+}
+.menu{
+    height: 24px;
+    margin-left: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+.menu:hover{
+    background-color: lightgray;
+}
+.youtube{
+    height: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+.middle-section{
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex: 1;
+margin-left: 50px;
+margin-right: 40px;
+max-width: 500px;
+}
+.search-bar{
+    width: 400px;
+    height: 34px;
+    font-family: roboto;
+    font-size: 16px;
+    border-radius: 20px;
+    flex: 1;
+    padding-left: 12px;
+    border-width: 1px;
+    box-shadow: inset 1px 2px 5px rgba(0,0,0,0.15);
+    border-color: rgb(192,192,192);
+    width: 0;
+}
+.search-bar::placeholder{
+    font-family: Roboto;
+    font-size: 16px;
+}
+.search{
+height: 36px;
+width: 60px;
+border-radius: 20px;
+border: none;
+box-shadow: inset 1px 2px 5px rgba(0,0,0,0.15);
+margin-left: -60px;
+background-color: white;
+border-width: 1px;
+border-color: rgb(192,192,192);
+cursor: pointer;
+}
+.search:active{
+    opacity: 0.5;
+}
+.search-img{
+    height: 25px;
+    margin-top: 4px;
+}
+.voice{
+height: 40px;
+width: 40px;
+border-radius: 25px;
+background-color: white;
+margin-left: 20px;
+border-style: solid;
+border-color: rgb(192,192,192);
+border: none;
+cursor: pointer;
+}
+.voice:active{
+    opacity: 0.5;
+}
+.voice-img{
+    height: 25px;
+}
+.right-section{
+width: 200px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-right: 24px;
+flex-shrink: 0;
+}
+.create{
+height: 24px;
+cursor: pointer;
+border-radius: 12px;
+}
+.create:hover{
+    background-color: lightgray;
+}
+.more{
+height: 24px;
+cursor: pointer;
+border-radius: 12px;
+}
+.more:hover{
+    background-color: lightgray;
+}
+.bell{
+height: 24px;
+cursor: pointer;
+border-radius: 12px;
+}
+.bell:hover{
+    background-color: lightgray;
+    
+}
+.mail{
+height: 32px;
+border-radius: 25px;
+cursor: pointer;
+}
+.bell-count{
+    position: relative;
+}
+.bell-count1{
+    position: absolute;
+    top: -4px;
+    font-size: 12px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    right: -9px;
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border-radius: 8px;
+}
+.search{
+    position: relative;
+}
+.search .tooltip{
+position: absolute;
+background-color: lightgray;
+padding: 4px;
+bottom: -30px;
+border-radius: 10px;
+opacity: 0;
+pointer-events: none;
+}
+.search:hover .tooltip{
+    opacity: 1;
+}
+.voice{
+    position: relative;
+}
+.voice .tooltip{
+    white-space: nowrap;
+    margin-left: -50px;
+    position: absolute;
+    background-color: lightgray;
+    bottom: -30px;
+    padding: 6px;
+    border-radius: 50px;
+    opacity: 0;
+    pointer-events: none;
+}
+.voice:hover .tooltip{
+    opacity: 1;
+}

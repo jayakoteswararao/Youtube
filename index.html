@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <title>Youtube.com</title>
+        <link rel="stylesheet" href="top.css">
+        <link rel="stylesheet" href="side.css">
+        <style>
+            body{
+                margin: 0;
+                padding-top: 60px;
+                padding-left: 90px;
+                padding-right: 25px;
+                background-color: rgb(248,248,248);
+            }
+            p{
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+            .y1{
+              width: 100%;
+              border-radius: 20px;
+              margin-bottom: 10px;  
+            }
+            .bio{
+                font-size: 18px;
+                font-family: Roboto;
+                margin-top: 0;
+                margin-bottom: 10px;
+            }
+            .bio1,.bio2{
+                font-size: 12px;
+                font-family: Roboto;
+                color: rgb(96,96,96);
+            }
+            .bio1{
+                margin-bottom: 6px;
+            }
+            .i1{
+                border-radius: 30px;
+                padding: 10px;
+                cursor: pointer;
+            }
+            .i1:hover{
+                background-color: rgba(198, 198, 198, 0.836);
+            }
+            .logo1{
+                width: 100%;
+                border-radius: 30px;
+            }
+            .video-grid{
+                display: grid;
+                grid-template-columns: 50px 1fr;
+            }
+            .channel-logo{
+                margin-right: 10px;
+            }
+            .Middle-grid{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                column-gap: 25px;
+                row-gap: 40px;
+            }
+            .timer{
+                position: relative;
+            }
+            .video-time{
+                position: absolute;
+                bottom: 20px;
+                right: 10px;
+                background-color: black;
+                color: white;
+                padding: 4px;
+                border-radius: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="left-section">
+                <img class="menu" src="menu.svg">
+                <img class="youtube" src="youtube-logo.svg">
+            </div>
+            <div class="middle-section">
+                <input class="search-bar" type="text" placeholder="Search">
+                <button class="search">
+                    <img class="search-img" src="search.svg">
+                    <div class="tooltip">Search</div>
+                </button>
+                <button class="voice">
+                    <img class="mic-img" src="mic.svg">
+                    <div class="tooltip">Search with your voice</div>
+                </button>
+            </div>
+            <div class="right-section">
+                <img class="create" src="create logo.svg">
+                <img class="more" src="more logo.svg">
+                <div class="bell-count">
+                    <img class="bell" src="bell icon.svg">
+                    <div class="bell-count1">9+</div>
+                </div>
+                <img class="mail" src="gmail logo.jpg">
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="sidebar1">
+                <img src="home.svg">
+                <div>Home</div>
+            </div>
+            <div class="sidebar1">
+                <img src="explore.svg">
+                <div>Explore</div>
+            </div>
+            <div class="sidebar1">
+                <img src="subscriptions.svg">
+                <div>Subscriptions</div>
+            </div>
+            <div class="sidebar1">
+                <img src="originals.svg">
+                <div>Originals</div>
+            </div>
+            <div class="sidebar1">
+                <img src="youtube-music.svg">
+                <div>Youtube Music</div>
+            </div>
+            <div class="sidebar1">
+                <img src="library.svg">
+                <div>Library</div>
+            </div>
+        </div>
+        <div class="Middle-grid">
+        <div class="i1">
+            <div class="timer">
+                <a href="https://www.youtube.com/watch?v=XJs90w5EZ2Q"><img class="y1" src="ap.jpg"></a>
+                <div class="video-time">15:00</div>
+            </div>
+            <div class="video-grid">
+                <div class="channel-logo">
+                    <a href="https://www.youtube.com/@AadhanTelugu"><img class="logo1" src="aadhan logo.jpeg"></a>
+                </div>
+                <div class="info">
+                    <p class="bio">Fire in the AP politics and the exit poll survey after the election to know who is going to win</p>
+                    <p class="bio1">Aadhan Telugu</p>
+                    <p class="bio2">3.4M veiws &#8226; 1 day ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="i1">
+            <div class="timer">
+                <a href="https://www.youtube.com/watch?v=dYd6DiM-YFc"><img class="y1" src="biopic of vk.jpg"></a>
+                <div class="video-time">8:00</div>
+            </div>
+            <div class="video-grid">
+                <div class="channel-logo">
+                    <a href="https://www.youtube.com/@GBBCricket"><img class="logo1" src="gbb logo.jpg"></a>
+                </div>
+                <div class="info">
+                    <p class="bio">Our Indian cricketer virat kohli biography who is also known as king of cricket</p>
+                    <p class="bio1">GBB Cricket</p>
+                    <p class="bio2">10M veiws &#8226; 1 year ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="i1">
+            <div class="timer">
+                <a href="https://www.youtube.com/watch?v=xYcNIWevFYA"><img class="y1" src="wirally food.jpg"></a>
+                <div class="video-time">17:40</div>
+            </div>
+            <div class="video-grid">
+                <div class="channel-logo">
+                    <a href="https://www.youtube.com/@WirallyFood"><img class="logo1" src="wirally food logo.jpg"></a>
+                </div>
+                <div class="info">
+                    <p class="bio">Exploring Food in Hyderabad DLF Lake for Softwares and NighShifts</p>
+                    <p class="bio1">Wirally food</p>
+                    <p class="bio2">7M veiws &#8226; 3 years ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="i1">
+            <div class="timer">
+                <a href="https://www.youtube.com/watch?v=H1_dmqSGUo8"><img class="y1" src="phone1.jpg"></a>
+                <div class="video-time">13:09</div>
+            </div>
+            <div class="video-grid">
+                <div class="channel-logo">
+                    <a href="https://www.youtube.com/@Prasadtechintelugu"><img class="logo1" src="prasad tech logo.jpg"></a>
+                </div>
+                <div class="info">
+                    <p class="bio">Motorola Budget phone Under 21K Unboxing Review </p>
+                    <p class="bio1">Prasad Tech in telugu</p>
+                    <p class="bio2">2M veiws &#8226; 10 days ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="i1">
+            <div class="timer">
+                <a href="https://www.youtube.com/watch?v=GSRHtR9RFRg"><img class="y1" src="301dairies.jpg"></a>
+                <div class="video-time">16:36</div>
+            </div>
+            <div class="video-grid">
+                <div class="channel-logo">
+                    <a href="https://www.youtube.com/@surveyno.301"><img class="logo1" src="301 logo.jpg"></a>
+                </div>
+                <div class="info">
+                    <p class="bio">BellamKondanna Rotta Cringe</p>
+                    <p class="bio1">301 Dairies</p>
+                    <p class="bio2">3M veiws &#8226; 2 years ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="i1">
+            <div class="timer">
+                <a href="https://www.youtube.com/watch?v=44S4QY5JPOQ"><img class="y1" src="top10.jpg"></a>
+                <div class="video-time">10:50</div>
+            </div>
+            <div class="video-grid">
+                <div class="channel-logo">
+                    <a href="https://www.youtube.com/@GBBCricket"><img class="logo1" src="gbb logo.jpg"></a>
+                </div>
+                <div class="info">
+                    <p class="bio">Top 10 Wicket keepers ranking List for T20 World cup 2024 from 1-10</p>
+                    <p class="bio1">GBB Cricket</p>
+                    <p class="bio2">2M veiws &#8226; 6 days ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="i1">
+            <div class="timer">
+                <a href="https://www.youtube.com/watch?v=AT14lCXuMKI&list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU"><img class="y1" src="types.jpg"></a>
+                <div class="video-time">1:36:45</div>
+            </div>
+            <div class="video-grid">
+                <div class="channel-logo">
+                    <a href="https://www.youtube.com/@JennyslecturesCSIT"><img class="logo1" src="jenny logo.jpg"></a>
+                </div>
+                <div class="info">
+                    <p class="bio">Differnt Types of Algorithms you must have to Learn in Data Structures</p>
+                    <p class="bio1">Jenny Lectures</p>
+                    <p class="bio2">4M veiws &#8226; 5 years ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="i1">
+            <div class="timer">
+                <a href="https://www.youtube.com/watch?v=HLuHP-Bxlt0"><img class="y1" src="qandA.jpg"></a>
+                <div class="video-time">18:00</div>
+            </div>
+            <div class="video-grid">
+                <div class="channel-logo">
+                    <a href="https://www.youtube.com/@StreetByte"><img class="logo1" src="street byte logo.jpg"></a>
+                </div>
+                <div class="info">
+                    <p class="bio">Question and Answers with Street Byte Ravi</p>
+                    <p class="bio1">Street Byte</p>
+                    <p class="bio2">1.5M veiws &#8226; 3 years ago</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
